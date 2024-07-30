@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE518A6C2C59484600142199 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE518A6B2C59484600142199 /* Model.swift */; };
 		AEBF9D802C59153A0033B100 /* Alpha_beat_izeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBF9D7F2C59153A0033B100 /* Alpha_beat_izeApp.swift */; };
 		AEBF9D822C59153A0033B100 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBF9D812C59153A0033B100 /* ContentView.swift */; };
 		AEBF9D842C59153B0033B100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBF9D832C59153B0033B100 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE518A6B2C59484600142199 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		AEBF9D7C2C59153A0033B100 /* Alpha-beat-ize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alpha-beat-ize.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBF9D7F2C59153A0033B100 /* Alpha_beat_izeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alpha_beat_izeApp.swift; sourceTree = "<group>"; };
 		AEBF9D812C59153A0033B100 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				AEBF9D7F2C59153A0033B100 /* Alpha_beat_izeApp.swift */,
 				AEBF9D8F2C591FE20033B100 /* fruits.json */,
 				AEBF9D812C59153A0033B100 /* ContentView.swift */,
+				AE518A6B2C59484600142199 /* Model.swift */,
 				AEBF9D832C59153B0033B100 /* Assets.xcassets */,
 				AEBF9D852C59153B0033B100 /* Preview Content */,
 			);
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE518A6C2C59484600142199 /* Model.swift in Sources */,
 				AEBF9D822C59153A0033B100 /* ContentView.swift in Sources */,
 				AEBF9D802C59153A0033B100 /* Alpha_beat_izeApp.swift in Sources */,
 			);
