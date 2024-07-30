@@ -11,6 +11,7 @@
 		AEBF9D822C59153A0033B100 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBF9D812C59153A0033B100 /* ContentView.swift */; };
 		AEBF9D842C59153B0033B100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBF9D832C59153B0033B100 /* Assets.xcassets */; };
 		AEBF9D872C59153B0033B100 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBF9D862C59153B0033B100 /* Preview Assets.xcassets */; };
+		AEBF9D902C591FE20033B100 /* fruits.json in Resources */ = {isa = PBXBuildFile; fileRef = AEBF9D8F2C591FE20033B100 /* fruits.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		AEBF9D862C59153B0033B100 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AEBF9D8D2C5917650033B100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AEBF9D8E2C59191D0033B100 /* PRIVACY.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PRIVACY.md; sourceTree = "<group>"; };
+		AEBF9D8F2C591FE20033B100 /* fruits.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fruits.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				AEBF9D8D2C5917650033B100 /* Info.plist */,
 				AEBF9D7F2C59153A0033B100 /* Alpha_beat_izeApp.swift */,
+				AEBF9D8F2C591FE20033B100 /* fruits.json */,
 				AEBF9D812C59153A0033B100 /* ContentView.swift */,
 				AEBF9D832C59153B0033B100 /* Assets.xcassets */,
 				AEBF9D852C59153B0033B100 /* Preview Content */,
@@ -129,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEBF9D902C591FE20033B100 /* fruits.json in Resources */,
 				AEBF9D872C59153B0033B100 /* Preview Assets.xcassets in Resources */,
 				AEBF9D842C59153B0033B100 /* Assets.xcassets in Resources */,
 			);
