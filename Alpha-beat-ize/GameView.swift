@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  GameView.swift
 //  Alpha-beat-ize
 //
 //  Created by Andrew Paterson on 7/30/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct GameView: View {
   @State private var game: GameState?
   @State private var currentWord: String = ""
   @State private var isCorrect: Bool = false
@@ -91,5 +91,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView(gameName: "fruits")
+    GameView(gameName: "fruits")
 }
