@@ -38,7 +38,6 @@ struct GameView: View {
                   .onSubmit {
                     if let game = game {
                       isCorrect = game.checkAnswer(answer: game.currentLetter.rawValue + currentWord)
-                      print(isCorrect)
                     }
                   }
               }
@@ -79,7 +78,6 @@ struct GameView: View {
         .task {
           let items = loadItems(gameName)
           game = GameState(currentLetter: .a, letterDictionary: items)
-          print(game!)
         }
     }
   
