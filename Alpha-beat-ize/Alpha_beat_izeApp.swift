@@ -11,7 +11,7 @@ import SwiftUI
 struct Alpha_beat_izeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TitleScreenView()
         }
     }
 }
