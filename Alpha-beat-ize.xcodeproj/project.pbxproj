@@ -15,6 +15,7 @@
 		AE518A762C5EC52600142199 /* colors.json in Resources */ = {isa = PBXBuildFile; fileRef = AE518A752C5EC52600142199 /* colors.json */; };
 		AE518A782C5EC81700142199 /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = AE518A772C5EC81700142199 /* animals.json */; };
 		AE518A7A2C5ED2F700142199 /* brands.json in Resources */ = {isa = PBXBuildFile; fileRef = AE518A792C5ED2F700142199 /* brands.json */; };
+		AE518A7C2C5ED48500142199 /* flowers.json in Resources */ = {isa = PBXBuildFile; fileRef = AE518A7B2C5ED48500142199 /* flowers.json */; };
 		AEBF9D802C59153A0033B100 /* Alpha_beat_izeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBF9D7F2C59153A0033B100 /* Alpha_beat_izeApp.swift */; };
 		AEBF9D822C59153A0033B100 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBF9D812C59153A0033B100 /* GameView.swift */; };
 		AEBF9D842C59153B0033B100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBF9D832C59153B0033B100 /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 		AE518A752C5EC52600142199 /* colors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = colors.json; sourceTree = "<group>"; };
 		AE518A772C5EC81700142199 /* animals.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
 		AE518A792C5ED2F700142199 /* brands.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = brands.json; sourceTree = "<group>"; };
+		AE518A7B2C5ED48500142199 /* flowers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = flowers.json; sourceTree = "<group>"; };
 		AEBF9D7C2C59153A0033B100 /* Alpha-beat-ize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alpha-beat-ize.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBF9D7F2C59153A0033B100 /* Alpha_beat_izeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alpha_beat_izeApp.swift; sourceTree = "<group>"; };
 		AEBF9D812C59153A0033B100 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				AE518A752C5EC52600142199 /* colors.json */,
 				AE518A772C5EC81700142199 /* animals.json */,
 				AE518A792C5ED2F700142199 /* brands.json */,
+				AE518A7B2C5ED48500142199 /* flowers.json */,
 				AEBF9D812C59153A0033B100 /* GameView.swift */,
 				AE518A6F2C5E7B5300142199 /* TitleScreenView.swift */,
 				AE518A732C5E893C00142199 /* CategorySelectionView.swift */,
@@ -163,6 +166,7 @@
 				AE518A762C5EC52600142199 /* colors.json in Resources */,
 				AE518A7A2C5ED2F700142199 /* brands.json in Resources */,
 				AEBF9D872C59153B0033B100 /* Preview Assets.xcassets in Resources */,
+				AE518A7C2C5ED48500142199 /* flowers.json in Resources */,
 				AEBF9D842C59153B0033B100 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
