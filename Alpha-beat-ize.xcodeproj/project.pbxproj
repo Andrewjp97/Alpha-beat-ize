@@ -19,6 +19,7 @@
 		AE518A7E2C5ED66C00142199 /* clothing.json in Resources */ = {isa = PBXBuildFile; fileRef = AE518A7D2C5ED66C00142199 /* clothing.json */; };
 		AE518A802C5ED80200142199 /* musicgenres.json in Resources */ = {isa = PBXBuildFile; fileRef = AE518A7F2C5ED80200142199 /* musicgenres.json */; };
 		AE518A822C5ED95700142199 /* songtitles.json in Resources */ = {isa = PBXBuildFile; fileRef = AE518A812C5ED95700142199 /* songtitles.json */; };
+		AE518A852C5EDBE700142199 /* bands.json in Resources */ = {isa = PBXBuildFile; fileRef = AE518A842C5EDBE700142199 /* bands.json */; };
 		AEBF9D802C59153A0033B100 /* Alpha_beat_izeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBF9D7F2C59153A0033B100 /* Alpha_beat_izeApp.swift */; };
 		AEBF9D822C59153A0033B100 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBF9D812C59153A0033B100 /* GameView.swift */; };
 		AEBF9D842C59153B0033B100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBF9D832C59153B0033B100 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 		AE518A7D2C5ED66C00142199 /* clothing.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = clothing.json; sourceTree = "<group>"; };
 		AE518A7F2C5ED80200142199 /* musicgenres.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = musicgenres.json; sourceTree = "<group>"; };
 		AE518A812C5ED95700142199 /* songtitles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = songtitles.json; sourceTree = "<group>"; };
+		AE518A842C5EDBE700142199 /* bands.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bands.json; sourceTree = "<group>"; };
 		AEBF9D7C2C59153A0033B100 /* Alpha-beat-ize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alpha-beat-ize.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBF9D7F2C59153A0033B100 /* Alpha_beat_izeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alpha_beat_izeApp.swift; sourceTree = "<group>"; };
 		AEBF9D812C59153A0033B100 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 			children = (
 				AEBF9D8F2C591FE20033B100 /* fruits.json */,
 				AE518A6D2C59B2E800142199 /* vegetables.json */,
+				AE518A842C5EDBE700142199 /* bands.json */,
 				AE518A712C5E7CD000142199 /* cities.json */,
 				AE518A752C5EC52600142199 /* colors.json */,
 				AE518A772C5EC81700142199 /* animals.json */,
@@ -180,6 +183,7 @@
 				AEBF9D902C591FE20033B100 /* fruits.json in Resources */,
 				AE518A722C5E7CD000142199 /* cities.json in Resources */,
 				AE518A6E2C59B2E800142199 /* vegetables.json in Resources */,
+				AE518A852C5EDBE700142199 /* bands.json in Resources */,
 				AE518A762C5EC52600142199 /* colors.json in Resources */,
 				AE518A7E2C5ED66C00142199 /* clothing.json in Resources */,
 				AE518A7A2C5ED2F700142199 /* brands.json in Resources */,
