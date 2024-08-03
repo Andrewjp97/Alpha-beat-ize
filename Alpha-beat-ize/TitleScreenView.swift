@@ -8,8 +8,26 @@
 import SwiftUI
 
 struct TitleScreenView: View {
+  @State private var displayingCategorySelection: Bool = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Rectangle()
+                .foregroundStyle(.accent)
+                .ignoresSafeArea()
+            VStack {
+                Text("Alpha-beat-ize")
+                    .font(.system(size: 50))
+                    .foregroundStyle(.white)
+                Button("Start") {
+                    displayingCategorySelection = true
+                }
+                .font(.system(size: 50))
+                .foregroundStyle(.white)
+            }
+        }
+        .fullScreenCover(isPresented: $displayingCategorySelection) {
+            CategorySelectionView()
+        }
     }
 }
 
