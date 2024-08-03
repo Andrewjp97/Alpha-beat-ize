@@ -15,21 +15,22 @@ struct CategorySelectionView: View {
           .foregroundStyle(.accent)
           .ignoresSafeArea()
         List {
-          Text("Select a Category")
+          Text("Categories")
             .font(.system(size: 50))
             .foregroundStyle(.accent)
           NavigationLink("Cities", destination: GameView(gameName: "cities"))
-            .font(.system(size: 50))
+            .font(.system(size: 30))
             .foregroundStyle(.accent)
           NavigationLink("Fruits", destination: GameView(gameName: "fruits"))
-            .font(.system(size: 50))
+            .font(.system(size: 30))
             .foregroundStyle(.accent)
           NavigationLink("Vegetables", destination: GameView(gameName: "vegetables"))
-            .font(.system(size: 50))
+            .font(.system(size: 30))
             .foregroundStyle(.accent)
         }
       }
     }
+    .tint(.white)
   }
 }
   
