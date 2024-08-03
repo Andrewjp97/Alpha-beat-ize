@@ -18,6 +18,7 @@
 		AE518A7C2C5ED48500142199 /* flowers.json in Resources */ = {isa = PBXBuildFile; fileRef = AE518A7B2C5ED48500142199 /* flowers.json */; };
 		AE518A7E2C5ED66C00142199 /* clothing.json in Resources */ = {isa = PBXBuildFile; fileRef = AE518A7D2C5ED66C00142199 /* clothing.json */; };
 		AE518A802C5ED80200142199 /* musicgenres.json in Resources */ = {isa = PBXBuildFile; fileRef = AE518A7F2C5ED80200142199 /* musicgenres.json */; };
+		AE518A822C5ED95700142199 /* songtitles.json in Resources */ = {isa = PBXBuildFile; fileRef = AE518A812C5ED95700142199 /* songtitles.json */; };
 		AEBF9D802C59153A0033B100 /* Alpha_beat_izeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBF9D7F2C59153A0033B100 /* Alpha_beat_izeApp.swift */; };
 		AEBF9D822C59153A0033B100 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBF9D812C59153A0033B100 /* GameView.swift */; };
 		AEBF9D842C59153B0033B100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBF9D832C59153B0033B100 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 		AE518A7B2C5ED48500142199 /* flowers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = flowers.json; sourceTree = "<group>"; };
 		AE518A7D2C5ED66C00142199 /* clothing.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = clothing.json; sourceTree = "<group>"; };
 		AE518A7F2C5ED80200142199 /* musicgenres.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = musicgenres.json; sourceTree = "<group>"; };
+		AE518A812C5ED95700142199 /* songtitles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = songtitles.json; sourceTree = "<group>"; };
 		AEBF9D7C2C59153A0033B100 /* Alpha-beat-ize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alpha-beat-ize.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBF9D7F2C59153A0033B100 /* Alpha_beat_izeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alpha_beat_izeApp.swift; sourceTree = "<group>"; };
 		AEBF9D812C59153A0033B100 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE518A832C5ED9BE00142199 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				AEBF9D8F2C591FE20033B100 /* fruits.json */,
+				AE518A6D2C59B2E800142199 /* vegetables.json */,
+				AE518A712C5E7CD000142199 /* cities.json */,
+				AE518A752C5EC52600142199 /* colors.json */,
+				AE518A772C5EC81700142199 /* animals.json */,
+				AE518A7D2C5ED66C00142199 /* clothing.json */,
+				AE518A792C5ED2F700142199 /* brands.json */,
+				AE518A7B2C5ED48500142199 /* flowers.json */,
+				AE518A7F2C5ED80200142199 /* musicgenres.json */,
+				AE518A812C5ED95700142199 /* songtitles.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
 		AEBF9D732C59153A0033B100 = {
 			isa = PBXGroup;
 			children = (
@@ -80,15 +99,7 @@
 			children = (
 				AEBF9D8D2C5917650033B100 /* Info.plist */,
 				AEBF9D7F2C59153A0033B100 /* Alpha_beat_izeApp.swift */,
-				AEBF9D8F2C591FE20033B100 /* fruits.json */,
-				AE518A6D2C59B2E800142199 /* vegetables.json */,
-				AE518A712C5E7CD000142199 /* cities.json */,
-				AE518A752C5EC52600142199 /* colors.json */,
-				AE518A772C5EC81700142199 /* animals.json */,
-				AE518A7D2C5ED66C00142199 /* clothing.json */,
-				AE518A792C5ED2F700142199 /* brands.json */,
-				AE518A7B2C5ED48500142199 /* flowers.json */,
-				AE518A7F2C5ED80200142199 /* musicgenres.json */,
+				AE518A832C5ED9BE00142199 /* JSON */,
 				AEBF9D812C59153A0033B100 /* GameView.swift */,
 				AE518A6F2C5E7B5300142199 /* TitleScreenView.swift */,
 				AE518A732C5E893C00142199 /* CategorySelectionView.swift */,
@@ -172,6 +183,7 @@
 				AE518A762C5EC52600142199 /* colors.json in Resources */,
 				AE518A7E2C5ED66C00142199 /* clothing.json in Resources */,
 				AE518A7A2C5ED2F700142199 /* brands.json in Resources */,
+				AE518A822C5ED95700142199 /* songtitles.json in Resources */,
 				AEBF9D872C59153B0033B100 /* Preview Assets.xcassets in Resources */,
 				AE518A7C2C5ED48500142199 /* flowers.json in Resources */,
 				AE518A802C5ED80200142199 /* musicgenres.json in Resources */,
