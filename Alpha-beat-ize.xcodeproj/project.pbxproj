@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AE518A6C2C59484600142199 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE518A6B2C59484600142199 /* Model.swift */; };
+		AE518A6E2C59B2E800142199 /* vegetables.json in Resources */ = {isa = PBXBuildFile; fileRef = AE518A6D2C59B2E800142199 /* vegetables.json */; };
 		AEBF9D802C59153A0033B100 /* Alpha_beat_izeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBF9D7F2C59153A0033B100 /* Alpha_beat_izeApp.swift */; };
 		AEBF9D822C59153A0033B100 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBF9D812C59153A0033B100 /* ContentView.swift */; };
 		AEBF9D842C59153B0033B100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBF9D832C59153B0033B100 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		AE518A6B2C59484600142199 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		AE518A6D2C59B2E800142199 /* vegetables.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vegetables.json; sourceTree = "<group>"; };
 		AEBF9D7C2C59153A0033B100 /* Alpha-beat-ize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alpha-beat-ize.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBF9D7F2C59153A0033B100 /* Alpha_beat_izeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alpha_beat_izeApp.swift; sourceTree = "<group>"; };
 		AEBF9D812C59153A0033B100 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				AEBF9D8D2C5917650033B100 /* Info.plist */,
 				AEBF9D7F2C59153A0033B100 /* Alpha_beat_izeApp.swift */,
 				AEBF9D8F2C591FE20033B100 /* fruits.json */,
+				AE518A6D2C59B2E800142199 /* vegetables.json */,
 				AEBF9D812C59153A0033B100 /* ContentView.swift */,
 				AE518A6B2C59484600142199 /* Model.swift */,
 				AEBF9D832C59153B0033B100 /* Assets.xcassets */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEBF9D902C591FE20033B100 /* fruits.json in Resources */,
+				AE518A6E2C59B2E800142199 /* vegetables.json in Resources */,
 				AEBF9D872C59153B0033B100 /* Preview Assets.xcassets in Resources */,
 				AEBF9D842C59153B0033B100 /* Assets.xcassets in Resources */,
 			);
