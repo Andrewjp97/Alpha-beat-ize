@@ -12,84 +12,89 @@ struct GameView: View {
   @State private var currentWord: String = ""
   @State private var isCorrect: Bool = false
   var gameName: String
-    var body: some View {
-      ZStack {
-        Rectangle()
-          .foregroundStyle(.accent)
-          .ignoresSafeArea()
+  var body: some View {
+    VStack {
+      Text(gameName.capitalized)
+        .font(.system(size: 50))
+        .foregroundStyle(.accent)
+      if !(game?.gameComplete ?? false) {
+        // Game not complete
         ZStack {
-          Rectangle()
-            .foregroundStyle(.white)
+          RoundedRectangle(cornerRadius: 25)
+            .frame(height: 350)
             .padding()
-          if !(game?.gameComplete ?? false) {
-            VStack {
-              HStack {
-                Text(game?.currentLetter.rawValue.uppercased(with: .autoupdatingCurrent) ?? "")
-                  .font(.system(size: 50))
-                  .padding(.leading, 40)
-                  .foregroundStyle(isCorrect ? .accent : .black)
-                TextField("Word", text: $currentWord)
-                  .font(.system(size: 50))
-                  .autocorrectionDisabled()
-                  .textInputAutocapitalization(.never)
-                  .offset(x: -10)
-                  .foregroundStyle(isCorrect ? .accent : .black)
-                  .disabled(isCorrect)
-                  .onSubmit {
-                    if let game = game {
-                      isCorrect = game.checkAnswer(answer: game.currentLetter.rawValue + currentWord)
-                      print(isCorrect)
-                    }
-                  }
-              }
-              if isCorrect {
-                Button("Next") {
-                  if game != nil {
-                    game!.advance()
-                    currentWord = ""
-                    isCorrect = false
-                  }
+            .foregroundStyle(.accent)
+          RoundedRectangle(cornerRadius: 25)
+            .frame(height: 330)
+            .padding([.leading, .trailing], 25)
+            .foregroundStyle(.white)
+          VStack {
+            Text("Starting with " + (game?.currentLetter.rawValue.uppercased() ?? "?"))
+              .font(.system(size: 30))
+              .foregroundStyle(isCorrect ? .accent : .black)
+            TextField("Enter Word Here", text: $currentWord)
+              .font(.largeTitle)
+              .padding()
+              .autocorrectionDisabled()
+              .textInputAutocapitalization(.never)
+              .foregroundStyle(isCorrect ? .accent : .black)
+              .multilineTextAlignment(.center)
+              .onSubmit {
+                if let game = game {
+                  isCorrect = game.checkAnswer(answer: currentWord)
                 }
               }
-              else {
-                Button("Skip") {
-                  if game != nil {
-                    game!.advance()
-                    currentWord = ""
-                    isCorrect = false
-                  }
+            if isCorrect {
+              Button("Next") {
+                if game != nil {
+                  game!.advance()
+                  currentWord = ""
+                  isCorrect = false
                 }
               }
+              .buttonStyle(.borderedProminent)
             }
-          }
-          else {
-            VStack{
-              Text("You win!")
-                .font(.system(size: 50))
-                .foregroundStyle(.accent)
-              Button("Play again") {
-                game!.gameComplete = false
-                currentWord = ""
-                isCorrect = false
+            else {
+              Button("Skip") {
+                if game != nil {
+                  game!.advance()
+                  currentWord = ""
+                  isCorrect = false
+                }
               }
+              .buttonStyle(.borderedProminent)
             }
           }
         }
       }
-        .task {
-          let items = loadItems(gameName)
-          game = GameState(currentLetter: .a, letterDictionary: items)
-          print(game!)
+      else {
+        // Game complete
+        VStack{
+          Text("You win!")
+            .font(.system(size: 50))
+            .foregroundStyle(.accent)
+          Button("Play again") {
+            game!.gameComplete = false
+            currentWord = ""
+            isCorrect = false
+          }
+          .buttonStyle(.borderedProminent)
         }
+        
+      }
     }
+    .task {
+      let items = loadItems(gameName)
+      game = GameState(currentLetter: .a, letterDictionary: items)
+    }
+  }
   
   func loadItems(_ name: String) -> ItemDictionary {
     let asset = NSDataAsset(name: name)
     return try! JSONDecoder().decode(ItemDictionary.self, from: asset!.data)
   }
-  
 }
 
 #Preview {
-    GameView(gameName: "fruits")
+  GameView(gameName: "fruits")
 }
