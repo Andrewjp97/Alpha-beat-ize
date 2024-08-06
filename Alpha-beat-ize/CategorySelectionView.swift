@@ -54,7 +54,7 @@ struct CategorySelectionView: View {
         }
       }
     }
-    .tint(.white)
+    .tint(.accentColor)
   }
 }
   
