@@ -12,9 +12,10 @@ struct GameView: View {
   @State private var currentWord: String = ""
   @State private var isCorrect: Bool = false
   var gameName: String
+  var title: String
   var body: some View {
     VStack {
-      Text(gameName.capitalized)
+      Text(title)
         .font(.system(size: 50))
         .foregroundStyle(.accent)
       if !(game?.gameComplete ?? false) {
@@ -64,6 +65,10 @@ struct GameView: View {
               }
               .buttonStyle(.borderedProminent)
             }
+            Link("Report a Missing Word", destination: URL(string: "https://forms.office.com/r/VNDETbRHnx")!)
+              .font(.system(size: 20))
+              .foregroundStyle(.accent)
+              .padding(.top, 10)
           }
         }
       }
@@ -96,5 +101,5 @@ struct GameView: View {
 }
 
 #Preview {
-  GameView(gameName: "fruits")
+  GameView(gameName: "fruits", title: "Fruits")
 }

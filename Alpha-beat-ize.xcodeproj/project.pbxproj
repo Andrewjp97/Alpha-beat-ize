@@ -25,6 +25,7 @@
 		AEBF9D842C59153B0033B100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBF9D832C59153B0033B100 /* Assets.xcassets */; };
 		AEBF9D872C59153B0033B100 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBF9D862C59153B0033B100 /* Preview Assets.xcassets */; };
 		AEBF9D902C591FE20033B100 /* fruits.json in Resources */ = {isa = PBXBuildFile; fileRef = AEBF9D8F2C591FE20033B100 /* fruits.json */; };
+		AEC8D0832C62882700D57773 /* pokemon.json in Resources */ = {isa = PBXBuildFile; fileRef = AEC8D0822C62882700D57773 /* pokemon.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		AEBF9D8D2C5917650033B100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AEBF9D8E2C59191D0033B100 /* PRIVACY.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PRIVACY.md; sourceTree = "<group>"; };
 		AEBF9D8F2C591FE20033B100 /* fruits.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fruits.json; sourceTree = "<group>"; };
+		AEC8D0822C62882700D57773 /* pokemon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pokemon.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				AE518A7B2C5ED48500142199 /* flowers.json */,
 				AE518A7F2C5ED80200142199 /* musicgenres.json */,
 				AE518A812C5ED95700142199 /* songtitles.json */,
+				AEC8D0822C62882700D57773 /* pokemon.json */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE518A782C5EC81700142199 /* animals.json in Resources */,
+				AEC8D0832C62882700D57773 /* pokemon.json in Resources */,
 				AEBF9D902C591FE20033B100 /* fruits.json in Resources */,
 				AE518A722C5E7CD000142199 /* cities.json in Resources */,
 				AE518A6E2C59B2E800142199 /* vegetables.json in Resources */,
@@ -363,7 +367,7 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -398,7 +402,7 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

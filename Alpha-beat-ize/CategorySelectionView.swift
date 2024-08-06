@@ -18,39 +18,18 @@ struct CategorySelectionView: View {
           Text("Categories")
             .font(.system(size: 50))
             .foregroundStyle(.accent)
-          NavigationLink("Animals", destination: GameView(gameName: "animals"))
-            .font(.system(size: 30))
-            .foregroundStyle(.accent)
-          NavigationLink("Bands", destination: GameView(gameName: "bands"))
-            .font(.system(size: 30))
-            .foregroundStyle(.accent)
-          NavigationLink("Brands", destination: GameView(gameName: "brands"))
-            .font(.system(size: 30))
-            .foregroundStyle(.accent)
-          NavigationLink("Cities", destination: GameView(gameName: "cities"))
-            .font(.system(size: 30))
-            .foregroundStyle(.accent)
-          NavigationLink("Clothing", destination: GameView(gameName: "clothing"))
-            .font(.system(size: 30))
-            .foregroundStyle(.accent)
-          NavigationLink("Colors", destination: GameView(gameName: "colors"))
-            .font(.system(size: 30))
-            .foregroundStyle(.accent)
-          NavigationLink("Flowers", destination: GameView(gameName: "flowers"))
-            .font(.system(size: 30))
-            .foregroundStyle(.accent)
-          NavigationLink("Fruits", destination: GameView(gameName: "fruits"))
-            .font(.system(size: 30))
-            .foregroundStyle(.accent)
-          NavigationLink("Music Genres", destination: GameView(gameName: "musicgenres"))
-            .font(.system(size: 30))
-            .foregroundStyle(.accent)
-          NavigationLink("Song Titles", destination: GameView(gameName: "songtitles"))
-            .font(.system(size: 30))
-            .foregroundStyle(.accent)
-          NavigationLink("Vegetables", destination: GameView(gameName: "vegetables"))
-            .font(.system(size: 30))
-            .foregroundStyle(.accent)
+          GameNavigationLinkView(title: "Animals", gameName: "animals")
+          GameNavigationLinkView(title: "Bands", gameName: "bands")
+          GameNavigationLinkView(title: "Brands", gameName: "brands")
+          GameNavigationLinkView(title: "Cities", gameName: "cities")
+          GameNavigationLinkView(title: "Clothing", gameName: "clothing")
+          GameNavigationLinkView(title: "Colors", gameName: "colors")
+          GameNavigationLinkView(title: "Flowers", gameName: "flowers")
+          GameNavigationLinkView(title: "Fruits", gameName: "fruits")
+          GameNavigationLinkView(title: "Music Genres", gameName: "musicgenres")
+          GameNavigationLinkView(title: "Pokemon", gameName: "pokemon")
+          GameNavigationLinkView(title: "Song Titles", gameName: "songtitles")
+          GameNavigationLinkView(title: "Vegetables", gameName: "vegetables")
         }
       }
     }
@@ -61,3 +40,13 @@ struct CategorySelectionView: View {
   #Preview {
     CategorySelectionView()
   }
+
+struct GameNavigationLinkView: View {
+  var title: String
+  var gameName: String
+  var body: some View {
+    NavigationLink(title, destination: GameView(gameName: gameName, title: title))
+      .font(.system(size: 30))
+      .foregroundStyle(.accent)
+  }
+}
