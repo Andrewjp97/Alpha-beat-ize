@@ -42,7 +42,7 @@ struct GameView: View {
               .multilineTextAlignment(.center)
               .onSubmit {
                 if let game = game {
-                  isCorrect = game.checkAnswer(answer: currentWord)
+                  isCorrect = game.checkAnswer(answer: currentWord.lowercased())
                 }
               }
             if isCorrect {
