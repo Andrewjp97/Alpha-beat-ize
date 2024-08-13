@@ -21,7 +21,7 @@ struct CategorySelectionView: View {
           GameNavigationLinkView(title: "Animals", gameName: "animals")
           GameNavigationLinkView(title: "Bands", gameName: "bands")
           GameNavigationLinkView(title: "Brands", gameName: "brands")
-          GameNavigationLinkView(title: "Cities", gameName: "cities")
+          GameNavigationLinkView(title: "US Cities", gameName: "cities")
           GameNavigationLinkView(title: "Clothing", gameName: "clothing")
           GameNavigationLinkView(title: "Colors", gameName: "colors")
           GameNavigationLinkView(title: "Flowers", gameName: "flowers")
