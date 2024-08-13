@@ -11,6 +11,7 @@ struct GameView: View {
   @State private var game: GameState?
   @State private var currentWord: String = ""
   @State private var isCorrect: Bool = false
+  @State private var isDisplayingHintView: Bool = false
   var gameName: String
   var title: String
   var body: some View {
@@ -56,14 +57,20 @@ struct GameView: View {
               .buttonStyle(.borderedProminent)
             }
             else {
-              Button("Skip") {
-                if game != nil {
-                  game!.advance()
-                  currentWord = ""
-                  isCorrect = false
+              HStack {
+                Button("Skip") {
+                  if game != nil {
+                    game!.advance()
+                    currentWord = ""
+                    isCorrect = false
+                  }
                 }
+                .buttonStyle(.borderedProminent)
+                Button("Hint"){
+                  isDisplayingHintView = true
+                }
+                .buttonStyle(.borderedProminent)
               }
-              .buttonStyle(.borderedProminent)
             }
             Link("Report a Missing Word", destination: URL(string: "https://forms.office.com/r/VNDETbRHnx")!)
               .font(.system(size: 20))
@@ -92,6 +99,11 @@ struct GameView: View {
       let items = loadItems(gameName)
       game = GameState(currentLetter: .a, letterDictionary: items)
     }
+    .sheet(isPresented: $isDisplayingHintView, content: {
+      HintView(answer: game?.currentPossibleAnswers.randomElement() ?? "")
+        .presentationDetents([.medium])
+    })
+    
   }
   
   func loadItems(_ name: String) -> ItemDictionary {
