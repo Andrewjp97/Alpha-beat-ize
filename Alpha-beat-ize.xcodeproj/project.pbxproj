@@ -7,20 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE518A6C2C59484600142199 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE518A6B2C59484600142199 /* Model.swift */; };
+		AE518A6E2C59B2E800142199 /* vegetables.json in Resources */ = {isa = PBXBuildFile; fileRef = AE518A6D2C59B2E800142199 /* vegetables.json */; };
+		AE518A702C5E7B5300142199 /* TitleScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE518A6F2C5E7B5300142199 /* TitleScreenView.swift */; };
+		AE518A722C5E7CD000142199 /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = AE518A712C5E7CD000142199 /* cities.json */; };
+		AE518A742C5E893C00142199 /* CategorySelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE518A732C5E893C00142199 /* CategorySelectionView.swift */; };
+		AE518A762C5EC52600142199 /* colors.json in Resources */ = {isa = PBXBuildFile; fileRef = AE518A752C5EC52600142199 /* colors.json */; };
+		AE518A782C5EC81700142199 /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = AE518A772C5EC81700142199 /* animals.json */; };
+		AE518A7A2C5ED2F700142199 /* brands.json in Resources */ = {isa = PBXBuildFile; fileRef = AE518A792C5ED2F700142199 /* brands.json */; };
+		AE518A7C2C5ED48500142199 /* flowers.json in Resources */ = {isa = PBXBuildFile; fileRef = AE518A7B2C5ED48500142199 /* flowers.json */; };
+		AE518A7E2C5ED66C00142199 /* clothing.json in Resources */ = {isa = PBXBuildFile; fileRef = AE518A7D2C5ED66C00142199 /* clothing.json */; };
+		AE518A802C5ED80200142199 /* musicgenres.json in Resources */ = {isa = PBXBuildFile; fileRef = AE518A7F2C5ED80200142199 /* musicgenres.json */; };
+		AE518A822C5ED95700142199 /* songtitles.json in Resources */ = {isa = PBXBuildFile; fileRef = AE518A812C5ED95700142199 /* songtitles.json */; };
+		AE518A852C5EDBE700142199 /* bands.json in Resources */ = {isa = PBXBuildFile; fileRef = AE518A842C5EDBE700142199 /* bands.json */; };
 		AEBF9D802C59153A0033B100 /* Alpha_beat_izeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBF9D7F2C59153A0033B100 /* Alpha_beat_izeApp.swift */; };
-		AEBF9D822C59153A0033B100 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBF9D812C59153A0033B100 /* ContentView.swift */; };
+		AEBF9D822C59153A0033B100 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBF9D812C59153A0033B100 /* GameView.swift */; };
 		AEBF9D842C59153B0033B100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBF9D832C59153B0033B100 /* Assets.xcassets */; };
 		AEBF9D872C59153B0033B100 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBF9D862C59153B0033B100 /* Preview Assets.xcassets */; };
+		AEBF9D902C591FE20033B100 /* fruits.json in Resources */ = {isa = PBXBuildFile; fileRef = AEBF9D8F2C591FE20033B100 /* fruits.json */; };
+		AEC8D0832C62882700D57773 /* pokemon.json in Resources */ = {isa = PBXBuildFile; fileRef = AEC8D0822C62882700D57773 /* pokemon.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE518A6B2C59484600142199 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		AE518A6D2C59B2E800142199 /* vegetables.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vegetables.json; sourceTree = "<group>"; };
+		AE518A6F2C5E7B5300142199 /* TitleScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleScreenView.swift; sourceTree = "<group>"; };
+		AE518A712C5E7CD000142199 /* cities.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
+		AE518A732C5E893C00142199 /* CategorySelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySelectionView.swift; sourceTree = "<group>"; };
+		AE518A752C5EC52600142199 /* colors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = colors.json; sourceTree = "<group>"; };
+		AE518A772C5EC81700142199 /* animals.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
+		AE518A792C5ED2F700142199 /* brands.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = brands.json; sourceTree = "<group>"; };
+		AE518A7B2C5ED48500142199 /* flowers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = flowers.json; sourceTree = "<group>"; };
+		AE518A7D2C5ED66C00142199 /* clothing.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = clothing.json; sourceTree = "<group>"; };
+		AE518A7F2C5ED80200142199 /* musicgenres.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = musicgenres.json; sourceTree = "<group>"; };
+		AE518A812C5ED95700142199 /* songtitles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = songtitles.json; sourceTree = "<group>"; };
+		AE518A842C5EDBE700142199 /* bands.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bands.json; sourceTree = "<group>"; };
 		AEBF9D7C2C59153A0033B100 /* Alpha-beat-ize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alpha-beat-ize.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBF9D7F2C59153A0033B100 /* Alpha_beat_izeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alpha_beat_izeApp.swift; sourceTree = "<group>"; };
-		AEBF9D812C59153A0033B100 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AEBF9D812C59153A0033B100 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		AEBF9D832C59153B0033B100 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEBF9D862C59153B0033B100 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AEBF9D8D2C5917650033B100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AEBF9D8E2C59191D0033B100 /* PRIVACY.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PRIVACY.md; sourceTree = "<group>"; };
+		AEBF9D8F2C591FE20033B100 /* fruits.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fruits.json; sourceTree = "<group>"; };
+		AEC8D0822C62882700D57773 /* pokemon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pokemon.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +64,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE518A832C5ED9BE00142199 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				AEBF9D8F2C591FE20033B100 /* fruits.json */,
+				AE518A6D2C59B2E800142199 /* vegetables.json */,
+				AE518A842C5EDBE700142199 /* bands.json */,
+				AE518A712C5E7CD000142199 /* cities.json */,
+				AE518A752C5EC52600142199 /* colors.json */,
+				AE518A772C5EC81700142199 /* animals.json */,
+				AE518A7D2C5ED66C00142199 /* clothing.json */,
+				AE518A792C5ED2F700142199 /* brands.json */,
+				AE518A7B2C5ED48500142199 /* flowers.json */,
+				AE518A7F2C5ED80200142199 /* musicgenres.json */,
+				AE518A812C5ED95700142199 /* songtitles.json */,
+				AEC8D0822C62882700D57773 /* pokemon.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
 		AEBF9D732C59153A0033B100 = {
 			isa = PBXGroup;
 			children = (
@@ -56,7 +105,11 @@
 			children = (
 				AEBF9D8D2C5917650033B100 /* Info.plist */,
 				AEBF9D7F2C59153A0033B100 /* Alpha_beat_izeApp.swift */,
-				AEBF9D812C59153A0033B100 /* ContentView.swift */,
+				AE518A832C5ED9BE00142199 /* JSON */,
+				AEBF9D812C59153A0033B100 /* GameView.swift */,
+				AE518A6F2C5E7B5300142199 /* TitleScreenView.swift */,
+				AE518A732C5E893C00142199 /* CategorySelectionView.swift */,
+				AE518A6B2C59484600142199 /* Model.swift */,
 				AEBF9D832C59153B0033B100 /* Assets.xcassets */,
 				AEBF9D852C59153B0033B100 /* Preview Content */,
 			);
@@ -129,7 +182,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE518A782C5EC81700142199 /* animals.json in Resources */,
+				AEC8D0832C62882700D57773 /* pokemon.json in Resources */,
+				AEBF9D902C591FE20033B100 /* fruits.json in Resources */,
+				AE518A722C5E7CD000142199 /* cities.json in Resources */,
+				AE518A6E2C59B2E800142199 /* vegetables.json in Resources */,
+				AE518A852C5EDBE700142199 /* bands.json in Resources */,
+				AE518A762C5EC52600142199 /* colors.json in Resources */,
+				AE518A7E2C5ED66C00142199 /* clothing.json in Resources */,
+				AE518A7A2C5ED2F700142199 /* brands.json in Resources */,
+				AE518A822C5ED95700142199 /* songtitles.json in Resources */,
 				AEBF9D872C59153B0033B100 /* Preview Assets.xcassets in Resources */,
+				AE518A7C2C5ED48500142199 /* flowers.json in Resources */,
+				AE518A802C5ED80200142199 /* musicgenres.json in Resources */,
 				AEBF9D842C59153B0033B100 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,7 +206,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEBF9D822C59153A0033B100 /* ContentView.swift in Sources */,
+				AE518A6C2C59484600142199 /* Model.swift in Sources */,
+				AE518A702C5E7B5300142199 /* TitleScreenView.swift in Sources */,
+				AEBF9D822C59153A0033B100 /* GameView.swift in Sources */,
+				AE518A742C5E893C00142199 /* CategorySelectionView.swift in Sources */,
 				AEBF9D802C59153A0033B100 /* Alpha_beat_izeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,7 +367,7 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -334,7 +402,7 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

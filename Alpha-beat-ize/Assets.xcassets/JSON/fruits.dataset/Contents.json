@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "fruits.json",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
