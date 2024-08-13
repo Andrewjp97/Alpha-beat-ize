@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE2070EE2C6BBB7700ABDB58 /* HintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2070ED2C6BBB6400ABDB58 /* HintView.swift */; };
 		AE518A6C2C59484600142199 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE518A6B2C59484600142199 /* Model.swift */; };
 		AE518A6E2C59B2E800142199 /* vegetables.json in Resources */ = {isa = PBXBuildFile; fileRef = AE518A6D2C59B2E800142199 /* vegetables.json */; };
 		AE518A702C5E7B5300142199 /* TitleScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE518A6F2C5E7B5300142199 /* TitleScreenView.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE2070ED2C6BBB6400ABDB58 /* HintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintView.swift; sourceTree = "<group>"; };
 		AE518A6B2C59484600142199 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		AE518A6D2C59B2E800142199 /* vegetables.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vegetables.json; sourceTree = "<group>"; };
 		AE518A6F2C5E7B5300142199 /* TitleScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleScreenView.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				AE518A6F2C5E7B5300142199 /* TitleScreenView.swift */,
 				AE518A732C5E893C00142199 /* CategorySelectionView.swift */,
 				AE518A6B2C59484600142199 /* Model.swift */,
+				AE2070ED2C6BBB6400ABDB58 /* HintView.swift */,
 				AEBF9D832C59153B0033B100 /* Assets.xcassets */,
 				AEBF9D852C59153B0033B100 /* Preview Content */,
 			);
@@ -207,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE518A6C2C59484600142199 /* Model.swift in Sources */,
+				AE2070EE2C6BBB7700ABDB58 /* HintView.swift in Sources */,
 				AE518A702C5E7B5300142199 /* TitleScreenView.swift in Sources */,
 				AEBF9D822C59153A0033B100 /* GameView.swift in Sources */,
 				AE518A742C5E893C00142199 /* CategorySelectionView.swift in Sources */,
