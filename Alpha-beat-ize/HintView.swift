@@ -27,15 +27,16 @@ struct HintView: View {
   func shuffle() {
     withAnimation(.snappy()) {
       if answer.contains(" ") {
-        let components = answer.components(separatedBy: " ")
-        var response = ""
+        let components = answer[answer.index(after: answer.startIndex)..<answer.endIndex].components(separatedBy: " ")
+        var response = String(answer[answer.startIndex])
         for component in components {
           response += String(component.shuffled()) + " "
         }
         hint = response
       }
       else {
-        hint = String(answer.shuffled())
+        let restOfString = answer[answer.index(after: answer.startIndex)..<answer.endIndex]
+        hint = String(answer[answer.startIndex]) + String(restOfString.shuffled())
       }
     }
   }
