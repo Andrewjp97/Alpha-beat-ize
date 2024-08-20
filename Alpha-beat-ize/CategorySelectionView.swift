@@ -20,6 +20,7 @@ struct CategorySelectionView: View {
             .foregroundStyle(.accent)
           GameNavigationLinkView(title: "Animals", gameName: "animals")
           GameNavigationLinkView(title: "Bands", gameName: "bands")
+          GameNavigationLinkView(title: "Beverages", gameName: "beverages")
           GameNavigationLinkView(title: "Brands", gameName: "brands")
           GameNavigationLinkView(title: "US Cities", gameName: "cities")
           GameNavigationLinkView(title: "Clothing", gameName: "clothing")
@@ -30,6 +31,8 @@ struct CategorySelectionView: View {
           GameNavigationLinkView(title: "Pokemon", gameName: "pokemon")
           GameNavigationLinkView(title: "Song Titles", gameName: "songtitles")
           GameNavigationLinkView(title: "Vegetables", gameName: "vegetables")
+          GameNavigationLinkView(title: "Vehicle Makes", gameName: "vehiclemakes")
+          GameNavigationLinkView(title: "Vehicle Models", gameName: "vehiclemodels")
         }
       }
     }

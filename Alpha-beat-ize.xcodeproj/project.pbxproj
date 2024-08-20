@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		AE2070EE2C6BBB7700ABDB58 /* HintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2070ED2C6BBB6400ABDB58 /* HintView.swift */; };
+		AE2070F02C6C52D200ABDB58 /* vehiclemodels.json in Resources */ = {isa = PBXBuildFile; fileRef = AE2070EF2C6C52D200ABDB58 /* vehiclemodels.json */; };
+		AE2070F62C74C8CF00ABDB58 /* vehiclemakes.json in Resources */ = {isa = PBXBuildFile; fileRef = AE2070F52C74C8CF00ABDB58 /* vehiclemakes.json */; };
+		AE2070F82C74CB7B00ABDB58 /* beverages.json in Resources */ = {isa = PBXBuildFile; fileRef = AE2070F72C74CB7B00ABDB58 /* beverages.json */; };
 		AE518A6C2C59484600142199 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE518A6B2C59484600142199 /* Model.swift */; };
 		AE518A6E2C59B2E800142199 /* vegetables.json in Resources */ = {isa = PBXBuildFile; fileRef = AE518A6D2C59B2E800142199 /* vegetables.json */; };
 		AE518A702C5E7B5300142199 /* TitleScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE518A6F2C5E7B5300142199 /* TitleScreenView.swift */; };
@@ -31,6 +34,9 @@
 
 /* Begin PBXFileReference section */
 		AE2070ED2C6BBB6400ABDB58 /* HintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintView.swift; sourceTree = "<group>"; };
+		AE2070EF2C6C52D200ABDB58 /* vehiclemodels.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vehiclemodels.json; sourceTree = "<group>"; };
+		AE2070F52C74C8CF00ABDB58 /* vehiclemakes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vehiclemakes.json; sourceTree = "<group>"; };
+		AE2070F72C74CB7B00ABDB58 /* beverages.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = beverages.json; sourceTree = "<group>"; };
 		AE518A6B2C59484600142199 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		AE518A6D2C59B2E800142199 /* vegetables.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vegetables.json; sourceTree = "<group>"; };
 		AE518A6F2C5E7B5300142199 /* TitleScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleScreenView.swift; sourceTree = "<group>"; };
@@ -81,6 +87,9 @@
 				AE518A7F2C5ED80200142199 /* musicgenres.json */,
 				AE518A812C5ED95700142199 /* songtitles.json */,
 				AEC8D0822C62882700D57773 /* pokemon.json */,
+				AE2070EF2C6C52D200ABDB58 /* vehiclemodels.json */,
+				AE2070F52C74C8CF00ABDB58 /* vehiclemakes.json */,
+				AE2070F72C74CB7B00ABDB58 /* beverages.json */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -189,11 +198,14 @@
 				AEC8D0832C62882700D57773 /* pokemon.json in Resources */,
 				AEBF9D902C591FE20033B100 /* fruits.json in Resources */,
 				AE518A722C5E7CD000142199 /* cities.json in Resources */,
+				AE2070F02C6C52D200ABDB58 /* vehiclemodels.json in Resources */,
 				AE518A6E2C59B2E800142199 /* vegetables.json in Resources */,
+				AE2070F82C74CB7B00ABDB58 /* beverages.json in Resources */,
 				AE518A852C5EDBE700142199 /* bands.json in Resources */,
 				AE518A762C5EC52600142199 /* colors.json in Resources */,
 				AE518A7E2C5ED66C00142199 /* clothing.json in Resources */,
 				AE518A7A2C5ED2F700142199 /* brands.json in Resources */,
+				AE2070F62C74C8CF00ABDB58 /* vehiclemakes.json in Resources */,
 				AE518A822C5ED95700142199 /* songtitles.json in Resources */,
 				AEBF9D872C59153B0033B100 /* Preview Assets.xcassets in Resources */,
 				AE518A7C2C5ED48500142199 /* flowers.json in Resources */,
