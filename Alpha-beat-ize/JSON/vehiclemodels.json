@@ -1,0 +1,133 @@
+{
+  "a": [
+    "a4", "a8", "accent", "acadia", "accord", "acclaim", "aerio", "allroad", "almera", "alpine",
+    "altima", "amg gt", "ampera", "armada", "astra", "astra gtc", "astro", "atlantique",
+    "aura", "auris", "aurora", "avalanche", "avenger", "aventador", "aveo"
+  ],
+  "b": [
+    "b-class", "b-max", "b2500", "baja", "baleno", "barracuda", "beauville", "bentayga", "beretta",
+    "biscayne", "blazer", "bolt", "bonneville", "borrego", "boxster", "brat", "breeze",
+    "brougham", "bronco", "bronco sport"
+  ],
+  "c": [
+    "c-class", "c-max", "cabriolet", "cadenza", "cabrio", "caliber", "california", "camaro", "camry",
+    "canyon", "carrera", "cascada", "cavalier", "cayenne", "celica", "challenger", "cherokee",
+    "chevelle", "chevette", "civic", "clio", "cobalt", "colt", "commander", "compass",
+    "concorde", "contour", "corolla", "coronet", "corsica", "corvair", "corvette", "cougar",
+    "crossfire", "crosstrek", "cruze", "cube", "cx-3", "cx-5", "cx-9", "crv"
+  ],
+  "d": [
+    "d-class", "d-max", "dakota", "dart", "daytona", "defender", "delorean", "delta", "demon",
+    "denali", "deville", "diablo", "diplomat", "discovery", "discovery sport", "diva",
+    "dmc-12", "duster", "dynasty"
+  ],
+  "e": [
+    "e-class", "e-max", "e-palette", "e-type", "echo", "edge", "el camino", "el mirage", "element",
+    "elise", "elantra", "equinox", "escalade", "esprit", "escort", "excel", "exige",
+    "explorer", "expedition", "express", "evo", "evoque"
+  ],
+  "f": [
+    "f-class", "f-max", "f-150", "f-250", "f-type", "fairlane", "fairmont", "falcon", "fiero",
+    "firebird", "fit", "five hundred", "focus", "forenza", "forester", "forte", "fortwo",
+    "freelander", "freestyle", "frontier", "fusion", "fusion hybrid"
+  ],
+  "g": [
+    "g-class", "g-max", "g37", "gallardo", "galant", "genesis", "genesis coupe", "gladiator",
+    "golf", "grand am", "grand caravan", "grand cherokee", "grand marquis", "grand prix",
+    "granada", "grand voyager", "granturismo", "gs", "gt", "gto", "gx460"
+  ],
+  "h": [
+    "h-class", "h-max", "h1", "h2", "h3", "haima", "hatchback", "heritage", "highlander",
+    "hilux", "horizon", "hornet", "hummer", "huracan", "huracán", "hybrid"
+  ],
+  "i": [
+    "i-class", "i-max", "i-miev", "i3", "i8", "i20", "i30", "impreza", "indy", "insight",
+    "integra", "interceptor", "ioniq", "ioniq 5", "ion", "iq", "is250", "is300", "isuzu amigo",
+    "isuzu rodeo", "isuzu trooper"
+  ],
+  "j": [
+    "j-class", "j-max", "jalpa", "javelin", "jazz", "jetta", "jimny", "journey", "journey sxt",
+    "juggernaut", "jurassic", "juke", "juke nismo", "juke rs"
+  ],
+  "k": [
+    "k-class", "k-max", "k5", "kalina", "kallista", "kangoo", "karoq", "karmann ghia",
+    "kerax", "kicks", "kizashi", "kodiaq", "kona", "korando", "kuga", "kutana"
+  ],
+  "l": [
+    "l-class", "l-max", "lacrosse", "lagonda", "laguna", "land cruiser", "landau", "lancer",
+    "lasalle", "leaf", "lebaron", "legacy", "leone", "lesabre", "lfa", "lumina", "lumina apv", "lynx"
+  ],
+  "m": [
+    "m-class", "m-max", "m3", "m4", "m5", "m6", "malibu", "mariner", "matrix", "maverick",
+    "maxima", "mazdaspeed", "mazdaspeed3", "mazdaspeed6", "mirage", "miata", "model s",
+    "mondeo", "monte carlo", "montero", "mountaineer", "mule", "murano", "murcielago", "mustang"
+  ],
+  "n": [
+    "n-class", "n-max", "navigator", "neon", "ninja", "niva", "note", "nova", "nv200"
+  ],
+  "o": [
+    "o-class", "o-max", "octavia", "odyssey", "omega", "omega 3000", "omni", "onix", "opel kadett",
+    "orion", "outback", "outlander", "outlander phev", "outlander sport"
+  ],
+  "p": [
+    "p-class", "p-max", "pacer", "palisade", "panamera", "panamera turbo", "panda",
+    "passat", "pathfinder", "patriot", "pax", "phantom", "phoenix", "pilot", "pinto", "pla",
+    "plug-in", "plug-in hybrid", "plug-in hybrid electric vehicle", "plug-in hybrid range extender",
+    "porsche 911", "premacy", "prelude", "prius", "protege", "prowler"
+  ],
+  "q": [
+    "q-class", "q-max", "q3", "q5", "q7", "q8", "qashqai", "qsport", "quattro", "quattroporte",
+    "quattroporte diesel", "quattroporte gts", "quattroporte s", "quest", "quest se",
+    "qx30", "qx50", "qx56", "qx60", "qx70", "qx80"
+  ],
+  "r": [
+    "r-class", "r-max", "r8", "ram 1500", "ram 2500", "ranger", "ranger raptor",
+    "rav4", "rc200t", "regal", "regency", "renegade", "rendezvous", "rio",
+    "rio5", "ridgeline", "roadster", "rogue", "routan", "rvr", "rx300",
+    "rx7", "rx8"
+  ],
+  "s": [
+    "s-class", "s-max", "s60", "s80", "s-type", "safari", "santana", "savana",
+    "sebring", "sequoia", "seville", "sierra", "silhouette", "silverado", "skyline",
+    "solara", "solstice", "sonata", "sorento", "spark", "spider", "sprinter",
+    "sportage", "spyder", "sti", "stratus", "suburban", "sunfire", "super duty", "supra"
+  ],
+  "t": [
+    "t-class", "t-max", "tacoma", "taurus", "t-bird", "t-cross", "tahoe", "terra", "tercel",
+    "tesla model s", "titan", "tl", "tlx", "touareg", "touran", "trailblazer", "trans am",
+    "transit", "transit connect", "tribeca", "trooper", "tucson", "tundra", "tundra trd"
+  ],
+  "u": [
+    "u-class", "u-max", "ultima", "ultima gtr", "uplander", "urban cruiser", "urban explorer",
+    "urban hybrid", "urban hybrid electric vehicle", "urban plug-in hybrid", "urban plug-in hybrid electric vehicle",
+    "urban plug-in hybrid range extender", "urban range extender", "ur-quattro", "urvan", "urus",
+    "ute", "ufo", "unimog", "undercover"
+  ],
+  "v": [
+    "v-class", "v-max", "v12 vanquish", "v40", "v60", "v70", "v90", "vantage",
+    "velar", "veloster", "venza", "venture", "veracruz", "versa", "versa note",
+    "victoria", "viper", "volt", "voyager", "v-rod"
+  ],
+  "w": [
+    "w-class", "w-max", "wagon r", "wayfarer", "wiesmann", "wildcat", "wildtrak",
+    "windrunner", "windstar", "windstar gl", "windstar lx", "willys",
+    "wraith", "wrangler", "wrangler jl", "wrangler rubicon", "wrangler sahara",
+    "wrangler unlimited", "wrx", "wrx sti"
+  ],
+  "x": [
+    "x-class", "x-max", "x-trail", "x-type", "x1", "x2", "x3", "x4",
+    "x5", "x6", "x7", "xc60", "xc90", "xe", "xf",
+    "xj", "xj220", "xjr", "xjs", "xk", "xkr", "xterra", "xv"
+  ],
+  "y": [
+    "y-class", "y-max", "y12", "y10", "y33", "y62", "yachtline", "yankee",
+    "yaris", "yaris cross", "yaris gr", "yaris hybrid", "yaris hatchback",
+    "yaris verso", "yellowbird", "yeti", "ypsilon", "yukon", "yukon denali"
+  ],
+  "z": [
+    "z-class", "z-max", "z1000", "z06", "z12", "z3", "z34", "z4",
+    "z600", "z8", "zephyr", "zenvo", "zonda", "zoe", "zr1", "zx2",
+    "zx300", "zx5", "zx7", "zx10r"
+  ]
+}
+

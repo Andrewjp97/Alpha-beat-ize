@@ -1,0 +1,107 @@
+{
+  "a": [
+    "apple juice", "apricot nectar", "almond milk", "americano", "aperol spritz",
+    "arnold palmer", "apple cider", "aranciata", "agua fresca", "amaretto sour"
+  ],
+  "b": [
+    "beer", "black coffee", "buttermilk", "bubble tea", "bourbon",
+    "baileys", "black tea", "bloody mary", "blueberry smoothie", "butterbeer"
+  ],
+  "c": [
+    "coffee", "cola", "cranberry juice", "chai tea", "coconut water",
+    "cappuccino", "carrot juice", "cider", "chocolate milk", "cognac"
+  ],
+  "d": [
+    "diet coke", "daiquiri", "dr pepper", "dark roast coffee", "dry martini",
+    "detox water", "dubonnet", "dark beer", "dandelion tea", "dragon fruit smoothie"
+  ],
+  "e": [
+    "espresso", "eggnog", "energy drink", "elderflower cordial", "earl grey tea",
+    "everclear", "espresso martini", "english breakfast tea", "el diablo", "egg cream"
+  ],
+  "f": [
+    "fanta", "fruit punch", "frappuccino", "fennel tea", "fernet",
+    "french press coffee", "fuzzy navel", "fruit smoothie", "frosé", "french 75"
+  ],
+  "g": [
+    "ginger ale", "green tea", "grapefruit juice", "ginger beer", "gin",
+    "guava juice", "gatorade", "grog", "golden milk", "grasshopper"
+  ],
+  "h": [
+    "hot chocolate", "herbal tea", "honeydew smoothie", "horchata", "hibiscus tea",
+    "hot toddy", "hennessy", "hazelnut latte", "herbal infusion", "honey lemonade"
+  ],
+  "i": [
+    "iced tea", "irish coffee", "iced coffee", "iced matcha", "infused water",
+    "irish cream", "iced chai latte", "iced mocha", "indian tonic water", "iced cappuccino"
+  ],
+  "j": [
+    "juice", "jasmine tea", "jaljeera", "jagermeister", "jack daniel's",
+    "java chip frappuccino", "juniper tonic", "jalapeno margarita", "julep", "juiced greens"
+  ],
+  "k": [
+    "kombucha", "kefir", "kir royale", "kahlua", "kumquat juice",
+    "kool-aid", "kvass", "kola champagne", "kopi luwak", "kiwi smoothie"
+  ],
+  "l": [
+    "lemonade", "latte", "lychee juice", "lime cordial", "lager",
+    "long island iced tea", "linden tea", "lemon-lime soda", "liqueur", "lemon iced tea"
+  ],
+  "m": [
+    "milk", "mojito", "mango lassi", "matcha tea", "mineral water",
+    "mimosa", "margarita", "mulled wine", "mudslide", "milkshake"
+  ],
+  "n": [
+    "nectarine juice", "nesquik", "nut milk", "negroni", "nectar",
+    "nitro coffee", "nimbu pani", "nougat latte", "noni juice", "nutmeg tea"
+  ],
+  "o": [
+    "orange juice", "oolong tea", "oregano tea", "old fashioned", "orchid tea",
+    "oj", "orange soda", "ouzo", "orange blossom water", "oat milk"
+  ],
+  "p": [
+    "pepsi", "pineapple juice", "pina colada", "peppermint tea", "prosecco",
+    "pink lemonade", "passion fruit juice", "paloma", "peach schnapps", "pepper vodka"
+  ],
+  "q": [
+    "quinine water", "quince juice", "quik (nesquik)", "quiet storm cocktail",
+    "qishr", "quaker oats smoothie", "quince nectar", "quebec beer", "quad shot espresso", "q-tini"
+  ],
+  "r": [
+    "root beer", "red wine", "raspberry iced tea", "rum", "rooibos tea",
+    "root beer float", "russian tea", "rose water", "raisin water", "rye whiskey"
+  ],
+  "s": [
+    "sprite", "smoothie", "sarsaparilla", "sparkling water", "sangria",
+    "sake", "sherry", "strawberry milkshake", "spiced rum", "screwdriver"
+  ],
+  "t": [
+    "tea", "tomato juice", "tonic water", "tequila", "turmeric latte",
+    "thai iced tea", "tamarind juice", "tequila sunrise", "tangerine juice", "toddy"
+  ],
+  "u": [
+    "umeshu", "unsweetened tea", "underberg", "ube shake", "ultimate chocolate shake",
+    "up & up (cocktail)", "u-bet chocolate syrup drink", "uludag gazoz", "ultra sunrise energy drink", "uber monster energy"
+  ],
+  "v": [
+    "vitamin water", "vermouth", "vanilla milkshake", "vodka", "v8 juice",
+    "vanilla latte", "vin santo", "vegetable juice", "vino tinto", "vesper martini"
+  ],
+  "w": [
+    "water", "whiskey", "white wine", "wheatgrass juice", "wild berry smoothie",
+    "warm milk", "white russian", "weissbier", "whiskey sour", "white zinfandel"
+  ],
+  "x": [
+    "xing tea", "xalapa punch", "xocolatl", "xingu black beer", "x-rated fusion liqueur",
+    "xynoh", "xylitol cola", "xavionade", "xiphoid cocktail", "xerophyte tea"
+  ],
+  "y": [
+    "yakult", "yellow lemonade", "yogurt drink", "yerba mate", "yuja tea",
+    "yuzu juice", "yellow bird cocktail", "yokult orange", "yellow lady", "yukon jack"
+  ],
+  "z": [
+    "zima", "zinfandel", "zinger tea", "zobo drink", "zucchini juice",
+    "zappel", "zen green tea", "zapote juice", "zabaglione drink", "ziziphus tea"
+  ]
+}
+

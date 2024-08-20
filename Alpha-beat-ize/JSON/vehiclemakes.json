@@ -1,0 +1,91 @@
+{
+  "a": [
+    "abarth", "acura", "alfa romeo", "alpina", "alpine", "amc", "aprilia", "aston martin",
+    "audi", "austin", "autobianchi"
+  ],
+  "b": [
+    "baic", "bajaj", "bentley", "bmw", "bollinger", "borgward", "brabus",
+    "bugatti", "buick", "byd"
+  ],
+  "c": [
+    "cadillac", "caterham", "changan", "changhe", "chery", "chevrolet", "chrysler",
+    "citroën", "commer", "cupra"
+  ],
+  "d": [
+    "daewoo", "daf", "daihatsu", "datsun", "delorean", "dkw", "dodge",
+    "dongfeng", "ds automobiles", "ducati"
+  ],
+  "e": [
+    "eagle", "edsel", "eqv", "excalibur", "exeed"
+  ],
+  "f": [
+    "ferrari", "fiat", "fisker", "ford", "freightliner"
+  ],
+  "g": [
+    "gac", "geely", "genesis", "gillet", "gmc", "great wall", "gullwing",
+    "gumpert"
+  ],
+  "h": [
+    "hennessey", "hispano suiza", "honda", "hummer", "hyundai"
+  ],
+  "i": [
+    "infiniti", "innocenti", "international harvester", "isuzu", "iveco"
+  ],
+  "j": [
+    "jaguar", "jeep", "jinbei", "jmc"
+  ],
+  "k": [
+    "kia", "koenigsegg", "ktm"
+  ],
+  "l": [
+    "lada", "lamborghini", "lancia", "land rover", "lexus", "lincoln",
+    "lotus", "lucid"
+  ],
+  "m": [
+    "maserati", "maybach", "mazda", "mclaren", "mercedes-benz", "mercury",
+    "mg", "mini", "mitsubishi", "morgan"
+  ],
+  "n": [
+    "nash", "nissan", "noble"
+  ],
+  "o": [
+    "oldsmobile", "opel", "osca", "panoz"
+  ],
+  "p": [
+    "pagani", "peugeot", "pininfarina", "plymouth", "polestar",
+    "pontiac", "porsche", "proton"
+  ],
+  "q": [
+    "qvale"
+  ],
+  "r": [
+    "ram", "renault", "rezvani", "rimac", "rolls-royce", "rover"
+  ],
+  "s": [
+    "saab", "saleen", "saturn", "scion", "seat", "shelby", "skoda",
+    "smart", "spyker", "ssangyong", "studebaker", "subaru", "suzuki"
+  ],
+  "t": [
+    "tata", "tesla", "toyota", "triumph", "tvr"
+  ],
+  "u": [
+    "ultima", "ural"
+  ],
+  "v": [
+    "vauxhall", "vector", "venturi", "vespa", "vauxhall", "volkswagen",
+    "volvo", "viper"
+  ],
+  "w": [
+    "wiesmann", "willys"
+  ],
+  "x": [
+    "xpeng"
+  ],
+  "y": [
+    "yugo"
+  ],
+  "z": [
+    "zenvo", "zastava", "zil", "zundapp"
+  ]
+}
+
